@@ -11,9 +11,9 @@ Fix: 		Correcion de errores reportados por usuarios o en pruebas
 Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
 
 *	Add		dbo.Condenasadores	se crea tabla Marcos
-*	Add		dbo.Evaporadores	se crea tabla Evaporadores
-*	Add		dbo.Marcos			se crea tabla Marcos
-*	Change	import				se crea job automatico para carga de archivos en las bases de datos, con esto es posible que se cargue de manera automatica
+*	Add		dbo.Evaporadores	  se crea tabla Evaporadores
+*	Add		dbo.Marcos			    se crea tabla Marcos
+*	Change	import				    se crea job automatico para carga de archivos en las bases de datos, con esto es posible que se cargue de manera automatica
 
 
 
