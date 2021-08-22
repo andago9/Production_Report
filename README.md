@@ -27,22 +27,25 @@ REQUERIMIENTOS
 HARDWARE
 </h3>
 
-<align=center>
+<h4 align=center>
 Minimo
+</h4>
 
 			- 2 GB RAM
 			- 4 GB HD
 			- Procesador de 2 núcleos a 1,6 GHz
 
+<h4 align=center>
 Recomendado
-
+</h4>
 			- 4 GB RAM
 			- 8 GB  HD
 			- Procesador de 4 núcleos a 2,6 GHz
 
 
 
-</Center>
+
+
 SOFTWARE
 -----------------
 
