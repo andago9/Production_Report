@@ -3,40 +3,10 @@ REPORTE PRODUCCION
 <br>
 </h1>
 
-<h4 align="center">Reporte de produccion es un sistema de archivos de office diseñado para hacer la captura de datos del dia,
-se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Baseic, que trabajan entre si para su funcionamiento</h4>
-<p align="center">
-	<a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
-		<img src="https://img.shields.io/badge/Version-0.0.0.4-yellow.svg?style=for-the-badge"
-            alt="Version"></a>
-    <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
-    <img src="https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg?style=for-the-badge"
-        alt="build status"></a>
-    <a href="https://facebook.com/BlinterUniverse/">
-        <img src="https://img.shields.io/badge/Facebook-Like-blue.svg?style=for-the-badge"
-            alt="last deployed"></a>
-    <a href="https://discord.gg/34DYauN">
-        <img src="https://img.shields.io/badge/Discord-Join-blue.svg?style=for-the-badge"
-            alt="chat on Discord"></a>
-    <a href="https://twitter.com/BlinterUniverse">
-        <img src="https://img.shields.io/badge/Twitter-Follow-blue.svg?style=for-the-badge"
-            alt="follow on Twitter"></a>
-</p>
-
-
-version???
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.75" height="28" role="img" aria-label="VERSION:3">
-<g shape-rendering="crispEdges">
-<rect width="78.75" height="28" fill="#555"/>
-<rect x="78.75" width="193" height="28" fill="#e05d44"/>
-</g>
-<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-<text transform="scale(.1)" x="393.75" y="175" textLength="547.5" fill="#fff">VERSION</text>
-<text transform="scale(.1)" x="1752.5" y="175" textLength="1690" fill="#fff" font-weight="bold">3</text>
-</g>
-</svg>
-
-
+<h4 align="center">
+Reporte de produccion es un sistema de archivos de office diseñado para hacer la captura de datos del dia,
+se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Baseic, que trabajan entre si para su funcionamiento
+</h4>
 
 Que es Reporte de Produccion?
 -----------------------------
