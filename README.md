@@ -26,14 +26,14 @@ se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Base
 
 version???
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.75" height="28" role="img" aria-label="VERSION:3">
-/*<g shape-rendering="crispEdges">
-/*<rect width="78.75" height="28" fill="#555"/>
-/*<rect x="78.75" width="193" height="28" fill="#e05d44"/>
-/*</g>
-/*<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-/*<text transform="scale(.1)" x="393.75" y="175" textLength="547.5" fill="#fff">VERSION</text>
-/*<text transform="scale(.1)" x="1752.5" y="175" textLength="1690" fill="#fff" font-weight="bold">3</text>
-/*</g>
+<g shape-rendering="crispEdges">
+<rect width="78.75" height="28" fill="#555"/>
+<rect x="78.75" width="193" height="28" fill="#e05d44"/>
+</g>
+<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+<text transform="scale(.1)" x="393.75" y="175" textLength="547.5" fill="#fff">VERSION</text>
+<text transform="scale(.1)" x="1752.5" y="175" textLength="1690" fill="#fff" font-weight="bold">3</text>
+</g>
 </svg>
 
 
