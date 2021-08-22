@@ -1,10 +1,10 @@
 <h1 align="center">
-#  REPORTE PRODUCCION
-  <br>
+REPORTE PRODUCCION
+<br>
 </h1>
 
-<h4 align="center">Reporte de produccion es un sistema de archivos de office diseñado para hacer la captura de datos del dia
-se compone de varios archivos de excel, access, csv, y bats que trabajan entre si para su funcionamiento</h4>
+<h4 align="center">Reporte de produccion es un sistema de archivos de office diseñado para hacer la captura de datos del dia,
+se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Baseic, que trabajan entre si para su funcionamiento</h4>
 <p align="center">
 	<a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
 		<img src="https://img.shields.io/badge/Version-0.0.0.4-yellow.svg?style=for-the-badge"
@@ -24,7 +24,22 @@ se compone de varios archivos de excel, access, csv, y bats que trabajan entre s
 </p>
 
 
+https://img.shields.io/docker/v/andago9/report_production/5?style=for-the-badge
 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.75" height="28" role="img" aria-label="VERSION: REPOSITORY NOT FOUND">
+<title>VERSION: 3</title>
+<g shape-rendering="crispEdges">
+<rect width="78.75" height="28" fill="#555"/>
+<rect x="78.75" width="193" height="28" fill="#e05d44"/>
+</g>
+<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
+<text transform="scale(.1)" x="393.75" y="175" textLength="547.5" fill="#fff">VERSION</text>
+<text transform="scale(.1)" x="1752.5" y="175" textLength="1690" fill="#fff" font-weight="bold">3</text>
+</g>
+</svg>
+
+
+<img alt="Docker Image Version (tag latest semver)" src="https://img.shields.io/docker/v/andago9/report_production/5?style=for-the-badge">
 
 Que es Reporte de Produccion?
 -----------------------------
