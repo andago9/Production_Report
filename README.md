@@ -46,12 +46,14 @@ Recomendado
 
 
 
-
-
+<br>
+<h3 align="center">	
 SOFTWARE
------------------
+</h3>
 
-Minimo:
+<h4 align=center>
+Minimo
+</h4>
 
 			- Microsoft Office 2013
 			- MySQL Server 8.0
@@ -59,7 +61,9 @@ Minimo:
 			- Microsoft .NET Framework 4
 			- Arquitectura x86
 			
+<h4 align=center>
 Recomendado
+</h4>
 			- Microsoft Office 2019
 			- MySQL Server 8.0.25
 			- Microsoft Windows 10
