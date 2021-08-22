@@ -8,9 +8,10 @@ Reporte de produccion es un sistema de archivos de office diseñado para hacer l
 se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Baseic, que trabajan entre si para su funcionamiento
 </h4>
 
+<h2 align="center">	
 Que es Reporte de Produccion?
 -----------------------------
-
+</h2>
 Reporte de produccion es un sistema de archivos de office diseñado para hacer la captura de datos del dia
 se compone de varios archivos de excel, access, csv, y bats que trabajan entre si para su funcionamiento
 
