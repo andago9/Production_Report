@@ -1,7 +1,7 @@
 -------------------------------
 REPORTE DE PRODUCCION
-Updated:	30 07 2021
-Version:	5
+Updated:	22 08 2021
+Version:	6
 Autor:		DGonzalez
 Marcegaglia Colombia
 -------------------------------
@@ -10,21 +10,78 @@ Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
 Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
 
-*	Add		dbo.Condenasadores	se crea tabla Marcos
-*	Add		dbo.Evaporadores	  se crea tabla Evaporadores
+*	Change	path			Depuracion completa de archivos inservibles.
+*	Change	path			Organización de carpetas generando nueva estructura.
+*	Change	path			Se elimianan las carpetas y ahora quedan asi:
+							>Production_Report
+							>>DOC
+							>>>BACKUP
+							>>>RESOURCES
+							>PRODUCCION
+*	Change	path			Carpeta Produccion almacena los archivos de trabajo
+*	Change	path			Secambia estructura de archivos asi:
+							-	Control son archivos de almacenamiento de la información como backup en caso que el archivo reg falle.
+							-	Informe son los archivos de informe generales por sección
+							-	Reg, son archivos de registro para el manejo de información desde los informes.
+							-	Reporte, es el archivo que deben abrir para introducir la información
+*	Change	path			Carpeta DOC contiene backup y resources, backup es donde se llevara el control de versiones anteriores, alacenadas por fechas, y resources los elementos o recursos como imágenes etc.
+*	Add		DATOS BAJA.xls		Se crea el archivo datos de baja para control de empleados retirados y código.
+*	Change	Control_C		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
+*	Change	Control_M		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
+*	Change	Control_E		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
+*	Change	INFORMES_XXX	Se realiza modificación de informes ya que la cadena de conexión ha cambiado ya no es por conexión a sql server sino archivo de Excel
+*	Add		INFORMES_XXX	Se genera informe producción por proceso y se adiciona línea de tiempo, segmentación de datos por referencia y maquina y grafico dinamico para su visualización
+*	Add		INFORMES_XXX	Se repite información en informe producción por operario y se cambia la segmentación de datos por maquina
+*	Add		INFORMES_XXX	Reporte de paro por maquina se copia de producción por proceso y se retiran datos de operario y producción solo se dejan tiempos y maquina.
+*	Add		INFORMES_XXX	Se maneja el mismo archivo para los demás reportes modificando la cadena de conexión por cada sección es decir, informe de condensadores se conecta a reg condensa
+*	Change	REPORTE_C		Se modifica reporte condensadores para que realice la inserción de información en los dos archivos, control y registro.
+*	Add		Path			Se deja lista de documentos con numero de versión actual para que sean retirados del nombre.
+
+NAME						Version		Update
+---------------------------------------------------
+CHANGELOG.LOG				6			22 08 2021
+LICENSE						1			18 08 2021
+README.md					4			22 08 2021
+CONTROL_C.xls				2			22 08 2021
+CONTROL_E.xls				2			22 08 2021
+CONTROL_M.xls				2			22 08 2021
+INFORME_CONDENSADORES.xls	2			22 08 2021
+INFORME_EVAPORADORES.xls	2			22 08 2021
+INFORME_MARCOS.xls			2			22 08 2021
+REG_COND.xls				1			22 08 2021
+REG_EVA.xls					1			22 08 2021
+REG_MARCOS.xls				1			22 08 2021
+REPORTE_COND.xlsm			6			22 08 2021
+REPORTE_EVA.xlsm			3			22 08 2021
+REPORTE_MARCOS.xlsm			2			22 08 2021
+
+----------------------------------------------------------------------------------------------------------------------------
+REPORTE DE PRODUCCION
+Updated:	30 07 2021
+Version:	5
+Autor:		DGonzalez
+Marcegaglia Colombia
+----------------------------------------------------------------------------------------------------------------------------
+Add:		Adicion de algo nuevo a los archivos o codigo 
+Change:		Cambio de algun elemento de los archivos o codigo
+Fix: 		Correcion de errores reportados por usuarios o en pruebas 
+Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
+
+*	Add		dbo.Condenasadores		se crea tabla Marcos
+*	Add		dbo.Evaporadores	  	se crea tabla Evaporadores
 *	Add		dbo.Marcos			    se crea tabla Marcos
 *	Change	import				    se crea job automatico para carga de archivos en las bases de datos, con esto es posible que se cargue de manera automatica
 
 
 
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	20 07 2021
 Version:	4
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Add:		Adicion de algo nuevo a los archivos o codigo 
 Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
@@ -36,13 +93,13 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 
 
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	06 07 2021
 Version:	3.6
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Add:		Adicion de algo nuevo a los archivos o codigo 
 Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
@@ -55,7 +112,7 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 *	Add		test.odc		se crea archivo .odc es un tipo de archivo de conexiones de excel
 *	Add		README.md		se añade el archivo README donde se hacen las indicaciones de instalacion y requerimientos.
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	06 07 2021
 Version:	3.5
@@ -76,13 +133,13 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 *	Add		Actualizar.bat	se crea archivo .bat que abre la base de datos para ejecutar las macros automaticamente.
 
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	03 07 2021
 Version:	3.4.1
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Add:		Adicion de algo nuevo a los archivos o codigo 
 Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
@@ -96,13 +153,13 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 *	change	Las lineas de las columnas se cambian de color para que sean mas visibles
 *	change	El Orden de Scrap, y retrabajo se invierten
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	02 07 2021
 Version:	3.4
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Add:		Adicion de algo nuevo a los archivos o codigo 
 Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
@@ -113,13 +170,13 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 *	Add		se crea archivo readme para manual de instalacion y funcionamiento
 
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	01 07 2021
 Version:	3.2
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 *	change	reducir doblado serpentin por dob. serpentin.
 *	change	se cambia nombre de doblado de orejas a Doblado Orejas 1 y Doblado orejas 2. 
@@ -138,13 +195,13 @@ Marcegaglia Colombia
 *	Fix		se corrige error de copia de informacion a BD. la informacion estaba por celdas activas, si habia una fila o una columna en blanco detenia la copia dejando la informacion siguiente sin reportar.
 
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	30 06 2021
 Version:	3
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 *	change	La informacion de operario ahora sera digita en cod_op.
 *	change	La informacion tipo paro se digita ahora en una celda diferente.
@@ -153,25 +210,25 @@ Marcegaglia Colombia
 *	Add		Se añaden columnas tipo paro y descripcion paro..
 *	Fix		Limpiar eliminaba solo la mitad de la tabla se corrige el error.
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	05 05 2021
 Version:	2
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 *	change	se modifica macro, ahora pasa los datos de registro a archivo bd
 *	Add		se adicionan columnas observacion y procesos pendientes
 *	Add		Se configura boton Limpiar para eliminar informacion
 
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	12 03 2021
 Version:	1
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 *Add:
 *	Add		se crea archivo Condensadores con proceso corte de tuberia 
