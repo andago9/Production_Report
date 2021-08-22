@@ -24,8 +24,7 @@ se compone de varios archivos de excel, csv, bats y archivos en C# y Visual Base
 </p>
 
 
-https://img.shields.io/docker/v/andago9/report_production/5?style=for-the-badge
-
+version???
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="271.75" height="28" role="img" aria-label="VERSION:3">
 /*<g shape-rendering="crispEdges">
 /*<rect width="78.75" height="28" fill="#555"/>
