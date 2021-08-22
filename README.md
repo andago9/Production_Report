@@ -38,6 +38,8 @@ Minimo
 <h4 align=center>
 Recomendado
 </h4>
+
+
 			- 4 GB RAM
 			- 8 GB  HD
 			- Procesador de 4 núcleos a 2,6 GHz
