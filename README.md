@@ -71,6 +71,8 @@ Recomendado
 			- Microsoft .NET Framework 4
 			- Arquitectura x64
 
+<BR>
+
 ADICIONALES
 -----------------
 
