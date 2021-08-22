@@ -37,7 +37,6 @@ version???
 </svg>
 
 
-<img alt="Docker Image Version (tag latest semver)" src="https://img.shields.io/docker/v/andago9/report_production/5?style=for-the-badge">
 
 Que es Reporte de Produccion?
 -----------------------------
