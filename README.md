@@ -27,7 +27,7 @@ REQUERIMIENTOS
 HARDWARE
 </h3>
 
-<center>
+<align=center>
 Minimo
 
 			- 2 GB RAM
