@@ -64,6 +64,7 @@ Minimo
 <h4 align=center>
 Recomendado
 </h4>
+
 			- Microsoft Office 2019
 			- MySQL Server 8.0.25
 			- Microsoft Windows 10
