@@ -1,10 +1,26 @@
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+REPORTE DE PRODUCCION
+Updated:	23 08 2021
+Version:	6.1
+Autor:		DGonzalez
+Marcegaglia Colombia
+----------------------------------------------------------------------------------------------------------------------------
+Add:		Adicion de algo nuevo a los archivos o codigo 
+Change:		Cambio de algun elemento de los archivos o codigo
+Fix: 		Correcion de errores reportados por usuarios o en pruebas 
+Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
+
+Fix:		INFORMES_XXX	Se reporta problema para actualizar la informacion por temas de version de office, se modifican
+							los archivos y se deja compatible con office2013 y otro archivo para office 2016 o superior 
+Fix:		REPORTE_XXX		Se corrigen problemas con codigo visual basic que detenian el proceso en ciertas ocasiones
+
+----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	22 08 2021
 Version:	6
 Autor:		DGonzalez
 Marcegaglia Colombia
--------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Add:		Adicion de algo nuevo a los archivos o codigo 
 Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
@@ -20,21 +36,29 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 							>PRODUCCION
 *	Change	path			Carpeta Produccion almacena los archivos de trabajo
 *	Change	path			Secambia estructura de archivos asi:
-							-	Control son archivos de almacenamiento de la información como backup en caso que el archivo reg falle.
+							-	Control son archivos de almacenamiento de la información como backup en caso que el 
+								archivo reg falle.
 							-	Informe son los archivos de informe generales por sección
 							-	Reg, son archivos de registro para el manejo de información desde los informes.
 							-	Reporte, es el archivo que deben abrir para introducir la información
-*	Change	path			Carpeta DOC contiene backup y resources, backup es donde se llevara el control de versiones anteriores, alacenadas por fechas, y resources los elementos o recursos como imágenes etc.
+*	Change	path			Carpeta DOC contiene backup y resources, backup es donde se llevara el control de versiones 
+							anteriores, alacenadas por fechas, y resources los elementos o recursos como imágenes etc.
 *	Add		DATOS BAJA.xls		Se crea el archivo datos de baja para control de empleados retirados y código.
 *	Change	Control_C		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
 *	Change	Control_M		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
 *	Change	Control_E		Se actualiza a la fecha con la información completa para eliminar asi los respaldos pendientes.
-*	Change	INFORMES_XXX	Se realiza modificación de informes ya que la cadena de conexión ha cambiado ya no es por conexión a sql server sino archivo de Excel
-*	Add		INFORMES_XXX	Se genera informe producción por proceso y se adiciona línea de tiempo, segmentación de datos por referencia y maquina y grafico dinamico para su visualización
-*	Add		INFORMES_XXX	Se repite información en informe producción por operario y se cambia la segmentación de datos por maquina
-*	Add		INFORMES_XXX	Reporte de paro por maquina se copia de producción por proceso y se retiran datos de operario y producción solo se dejan tiempos y maquina.
-*	Add		INFORMES_XXX	Se maneja el mismo archivo para los demás reportes modificando la cadena de conexión por cada sección es decir, informe de condensadores se conecta a reg condensa
-*	Change	REPORTE_C		Se modifica reporte condensadores para que realice la inserción de información en los dos archivos, control y registro.
+*	Change	INFORMES_XXX	Se realiza modificación de informes ya que la cadena de conexión ha cambiado ya no es por 
+							conexión a sql server sino archivo de Excel
+*	Add		INFORMES_XXX	Se genera informe producción por proceso y se adiciona línea de tiempo, segmentación de datos 
+							por referencia y maquina y grafico dinamico para su visualización
+*	Add		INFORMES_XXX	Se repite información en informe producción por operario y se cambia la segmentación de datos 
+							por maquina
+*	Add		INFORMES_XXX	Reporte de paro por maquina se copia de producción por proceso y se retiran datos de operario y 
+							producción solo se dejan tiempos y maquina.
+*	Add		INFORMES_XXX	Se maneja el mismo archivo para los demás reportes modificando la cadena de conexión por cada 
+							sección es decir, informe de condensadores se conecta a reg condensa
+*	Change	REPORTE_C		Se modifica reporte condensadores para que realice la inserción de información en los dos 
+							archivos, control y registro.
 *	Add		Path			Se deja lista de documentos con numero de versión actual para que sean retirados del nombre.
 
 NAME						Version		Update
@@ -70,7 +94,8 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 *	Add		dbo.Condenasadores		se crea tabla Marcos
 *	Add		dbo.Evaporadores	  	se crea tabla Evaporadores
 *	Add		dbo.Marcos			    se crea tabla Marcos
-*	Change	import				    se crea job automatico para carga de archivos en las bases de datos, con esto es posible que se cargue de manera automatica
+*	Change	import				    se crea job automatico para carga de archivos en las bases de datos, con esto es posible
+									que se cargue de manera automatica
 
 
 
@@ -124,11 +149,13 @@ Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
 Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
 
-*	change	changelog		el formato del change log se modifica. ahora se pondra el tipo de actualizacion, el archivo y la modificacion.
+*	change	changelog		el formato del change log se modifica. ahora se pondra el tipo de actualizacion, el archivo y la
+							modificacion.
 *	Fix		BD.x			se ajusta el formato y se dejan visibles las hojas para poder navegar
 *	Fix		condensadores	boton limpiar no estaba eliminando toda la informacion
 *	Add		BD.a			se crea archivo de base de datos para almacenar la informacion sin problema y generar reportes
-*	Add		BD.a			las macro importar genera la importacion de excel a access. la macro de ejecucion de inicio ejecuta macro importar y cierra el archivo 
+*	Add		BD.a			las macro importar genera la importacion de excel a access. la macro de ejecucion de inicio 
+							ejecuta macro importar y cierra el archivo 
 *	Add		Evaporadores	se crea archivo evaporadores con la informacion para el proceso.
 *	Add		Actualizar.bat	se crea archivo .bat que abre la base de datos para ejecutar las macros automaticamente.
 
@@ -192,7 +219,8 @@ Marcegaglia Colombia
 *	Add		se añaden casillas adicionales para dobladora 2 y 3.
 *	Add		se añaden 2 casillas en soldadura horizontal.
 *	Add		para no perder los titulos de tabla se inmovilizan los paneles.
-*	Fix		se corrige error de copia de informacion a BD. la informacion estaba por celdas activas, si habia una fila o una columna en blanco detenia la copia dejando la informacion siguiente sin reportar.
+*	Fix		se corrige error de copia de informacion a BD. la informacion estaba por celdas activas, si habia una fila o una
+			columna en blanco detenia la copia dejando la informacion siguiente sin reportar.
 
 
 ----------------------------------------------------------------------------------------------------------------------------
