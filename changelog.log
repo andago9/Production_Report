@@ -1,6 +1,44 @@
 ----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	23 08 2021
+Version:	6.2
+Autor:		DGonzalez
+Marcegaglia Colombia
+----------------------------------------------------------------------------------------------------------------------------
+Add:		Adicion de algo nuevo a los archivos o codigo 
+Change:		Cambio de algun elemento de los archivos o codigo
+Fix: 		Correcion de errores reportados por usuarios o en pruebas 
+Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
+
+
+
+Fix:		INFORMES_XXX	se corrige visualizacion de informacion, los datos tipo texto en referencia no eran importados
+Fix:		REPORTE_XXX		se corrige copia de informacion para que asigne el formato de fecha en los datos y el formato
+							texto a la referencia
+							
+
+NAME						Version		Update
+---------------------------------------------------
+CHANGELOG.LOG				6.2			22 08 2021
+LICENSE						1			18 08 2021
+README.md					4			22 08 2021
+CONTROL_C.xls				2			22 08 2021
+CONTROL_E.xls				2			22 08 2021
+CONTROL_M.xls				2			22 08 2021
+INFORME_CONDENSADORES.xls	2.2			23 08 2021
+INFORME_EVAPORADORES.xls	2.2			23 08 2021
+INFORME_MARCOS.xls			2.2			23 08 2021
+REG_COND.xls				1			22 08 2021
+REG_EVA.xls					1			22 08 2021
+REG_MARCOS.xls				1			22 08 2021
+REPORTE_COND.xlsm			6.2			23 08 2021
+REPORTE_EVA.xlsm			3.2			23 08 2021
+REPORTE_MARCOS.xlsm			2.2			23 08 2021
+
+
+----------------------------------------------------------------------------------------------------------------------------
+REPORTE DE PRODUCCION
+Updated:	23 08 2021
 Version:	6.1
 Autor:		DGonzalez
 Marcegaglia Colombia
@@ -13,6 +51,27 @@ Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para l
 Fix:		INFORMES_XXX	Se reporta problema para actualizar la informacion por temas de version de office, se modifican
 							los archivos y se deja compatible con office2013 y otro archivo para office 2016 o superior 
 Fix:		REPORTE_XXX		Se corrigen problemas con codigo visual basic que detenian el proceso en ciertas ocasiones
+
+
+
+NAME						Version		Update
+---------------------------------------------------
+CHANGELOG.LOG				6.1			22 08 2021
+LICENSE						1			18 08 2021
+README.md					4			22 08 2021
+CONTROL_C.xls				2			22 08 2021
+CONTROL_E.xls				2			22 08 2021
+CONTROL_M.xls				2			22 08 2021
+INFORME_CONDENSADORES.xls	2.1			23 08 2021
+INFORME_EVAPORADORES.xls	2.1			23 08 2021
+INFORME_MARCOS.xls			2.1			23 08 2021
+REG_COND.xls				1			22 08 2021
+REG_EVA.xls					1			22 08 2021
+REG_MARCOS.xls				1			22 08 2021
+REPORTE_COND.xlsm			6.1			23 08 2021
+REPORTE_EVA.xlsm			3.1			23 08 2021
+REPORTE_MARCOS.xlsm			2.1			23 08 2021
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
