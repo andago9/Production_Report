@@ -1,3 +1,6 @@
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------
 REPORTE DE PRODUCCION
 Updated:	23 08 2021
@@ -10,11 +13,9 @@ Change:		Cambio de algun elemento de los archivos o codigo
 Fix: 		Correcion de errores reportados por usuarios o en pruebas 
 Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
 
-
-
 Fix:		INFORMES_XXX	se corrige visualizacion de informacion, los datos tipo texto en referencia no eran importados
 Fix:		REPORTE_XXX		se corrige copia de informacion para que asigne el formato de fecha en los datos y el formato
-							texto a la referencia
+							texto a la referencia.
 							
 
 NAME						Version		Update
