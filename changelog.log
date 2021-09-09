@@ -1,4 +1,49 @@
 
+----------------------------------------------------------------------------------------------------------------------------
+REPORTE DE PRODUCCION
+Updated:	08 09 2021
+Version:	6.3
+Autor:		DGonzalez
+Marcegaglia Colombia
+----------------------------------------------------------------------------------------------------------------------------
+Add:		Adicion de algo nuevo a los archivos o codigo 
+Change:		Cambio de algun elemento de los archivos o codigo
+Fix: 		Correcion de errores reportados por usuarios o en pruebas 
+Upgrade:	Actualizacion de algun complemento, plugin, o elemento necesario para le funcionamiento
+
+Fix:		INFORMES_XXX	se corrige actualizacion de la informacion ya que algunos archivos fueron modificados y la ruta
+							no era la ip sino una unidad fija E
+Fix:		INFORMES_XXX	se añaden campos de tipo de paro, se corrigen columnas y se actualizan los datos reg y control.
+Change:		REPORTE_COND	Se añaden casillas en resoldar.
+Change		REPORTE_EVA		Se añaden casillas
+
+							
+
+NAME							Version		Update
+---------------------------------------------------
+CHANGELOG.LOG					6.3			08 09 2021
+LICENSE							1			18 08 2021
+README.md						4			22 08 2021
+CONTROL_C.xls					2			22 08 2021
+CONTROL_E.xls					2			22 08 2021
+CONTROL_M.xls					2			22 08 2021
+INFORME_CONDENSADORES_2013.xls	2.3			08 09 2021
+INFORME_EVAPORADORES_2013.xls	2.3			08 09 2021
+INFORME_MARCOS:_2013.xls		2.3			08 09 2021
+INFORME_CONDENSADORES_2016.xls	2.3			08 09 2021
+INFORME_EVAPORADORES_2016.xls	2.3			08 09 2021
+INFORME_MARCOS_2016.xls			2.3			08 09 2021
+INFORME_CONDENSADORES_2019.xls	2.3			08 09 2021
+INFORME_EVAPORADORES_2019.xls	2.3			08 09 2021
+INFORME_MARCOS_2019.xls			2.3			08 09 2021
+REG_COND.xls					1			22 08 2021
+REG_EVA.xls						1			22 08 2021
+REG_MARCOS.xls					1			22 08 2021
+REPORTE_COND.xlsm				6.3			23 08 2021
+REPORTE_EVA.xlsm				3.3			23 08 2021
+REPORTE_MARCOS.xlsm				2.2			23 08 2021
+
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------
